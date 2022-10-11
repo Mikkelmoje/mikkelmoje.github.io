@@ -32,8 +32,8 @@ jobs:
       - name: Converts Markdown to HTML
         uses: jaywcjlove/markdown-to-html-cli@main
         with:
-          source: README.md
-          output: readme2.html
+          source: readme.md
+          output: index.html
       ##- uses: actions/upload-artifact@v1
       #  with:
       #    name: htmls
