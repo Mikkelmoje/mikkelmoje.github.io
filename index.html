@@ -89,6 +89,130 @@ class MarkdownStyle extends HTMLElement {
     }
 }
 customElements.define('markdown-style', MarkdownStyle);</script><markdown-style style="max-width: 960px; margin: 0 auto 60px auto; padding: 8px" class="markdown-style">
+    <pre class="language-mermaid"><code class="language-mermaid code-highlight"><span class="code-line line-number" line="1"><span class="token keyword">graph</span> TD<span class="token punctuation">;</span>
+</span><span class="code-line line-number" line="2">    A<span class="token arrow operator">--></span>B<span class="token punctuation">;</span>
+</span><span class="code-line line-number" line="3">    A<span class="token arrow operator">--></span>C<span class="token punctuation">;</span>
+</span><span class="code-line line-number" line="4">    B<span class="token arrow operator">--></span>D<span class="token punctuation">;</span>
+</span><span class="code-line line-number" line="5">    C<span class="token arrow operator">--></span>D<span class="token punctuation">;</span>
+</span></code><div onclick="copied(this)" data-code="graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+    <pre class="language-mermaid"><code class="language-mermaid code-highlight"><span class="code-line line-number" line="1"><span class="token keyword">sequenceDiagram</span>
+</span><span class="code-line line-number" line="2">    <span class="token keyword">participant</span> Alice
+</span><span class="code-line line-number" line="3">    <span class="token keyword">participant</span> Bob
+</span><span class="code-line line-number" line="4">    Alice<span class="token arrow operator">->></span>John<span class="token operator">:</span> Hello John, how are you?
+</span><span class="code-line line-number" line="5">    <span class="token keyword">loop</span> Healthcheck
+</span><span class="code-line line-number" line="6">        John<span class="token arrow operator">->></span>John<span class="token operator">:</span> Fight against hypochondria
+</span><span class="code-line line-number" line="7">    <span class="token keyword">end</span>
+</span><span class="code-line line-number" line="8">    <span class="token keyword">Note right of</span> John<span class="token operator">:</span> Rational thoughts &#x3C;br/>prevail!
+</span><span class="code-line line-number" line="9">    John<span class="token arrow operator">-->></span>Alice<span class="token operator">:</span> Great!
+</span><span class="code-line line-number" line="10">    John<span class="token arrow operator">->></span>Bob<span class="token operator">:</span> How about you?
+</span><span class="code-line line-number" line="11">    Bob<span class="token arrow operator">-->></span>John<span class="token operator">:</span> Jolly good!
+</span></code><div onclick="copied(this)" data-code="sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
+" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+    <pre class="language-mermaid"><code class="language-mermaid code-highlight"><span class="code-line line-number" line="1"><span class="token keyword">gantt</span>
+</span><span class="code-line line-number" line="2">dateFormat  YYYY-MM-DD
+</span><span class="code-line line-number" line="3">title Adding GANTT diagram to mermaid
+</span><span class="code-line line-number" line="4">excludes weekdays 2014-01-10
+</span><span class="code-line line-number" line="5">
+</span><span class="code-line line-number" line="6">section A section
+</span><span class="code-line line-number" line="7">Completed task            <span class="token operator">:</span>done,    des1, 2014-01-06,2014-01-08
+</span><span class="code-line line-number" line="8">Active task               <span class="token operator">:</span>active,  des2, 2014-01-09, 3d
+</span><span class="code-line line-number" line="9">Future task               <span class="token operator">:</span>         des3, after des2, 5d
+</span><span class="code-line line-number" line="10">Future task2               <span class="token operator">:</span>         des4, after des3, 5d
+</span></code><div onclick="copied(this)" data-code="gantt
+dateFormat  YYYY-MM-DD
+title Adding GANTT diagram to mermaid
+excludes weekdays 2014-01-10
+
+section A section
+Completed task            :done,    des1, 2014-01-06,2014-01-08
+Active task               :active,  des2, 2014-01-09, 3d
+Future task               :         des3, after des2, 5d
+Future task2               :         des4, after des3, 5d
+" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+    <pre class="language-mermaid"><code class="language-mermaid code-highlight"><span class="code-line line-number" line="1"><span class="token keyword">classDiagram</span>
+</span><span class="code-line line-number" line="2">Class01 <span class="token arrow operator">&#x3C;|--</span> AveryLongClass <span class="token operator">:</span> Cool
+</span><span class="code-line line-number" line="3">Class03 <span class="token arrow operator">*--</span> Class04
+</span><span class="code-line line-number" line="4">Class05 <span class="token arrow operator">o--</span> Class06
+</span><span class="code-line line-number" line="5">Class07 <span class="token arrow operator">..</span> Class08
+</span><span class="code-line line-number" line="6">Class09 <span class="token arrow operator">--></span> C2 <span class="token operator">:</span> Where am i?
+</span><span class="code-line line-number" line="7">Class09 <span class="token arrow operator">--*</span> C3
+</span><span class="code-line line-number" line="8">Class09 <span class="token arrow operator">--|></span> Class07
+</span><span class="code-line line-number" line="9">Class07 <span class="token operator">:</span> equals<span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span><span class="code-line line-number" line="10">Class07 <span class="token operator">:</span> Object[] elementData
+</span><span class="code-line line-number" line="11">Class01 <span class="token operator">:</span> size<span class="token punctuation">(</span><span class="token punctuation">)</span>
+</span><span class="code-line line-number" line="12">Class01 <span class="token operator">:</span> int chimp
+</span><span class="code-line line-number" line="13">Class01 <span class="token operator">:</span> int gorilla
+</span><span class="code-line line-number" line="14">Class08 <span class="token arrow operator">&#x3C;--></span> C2<span class="token operator">:</span> Cool label
+</span></code><div onclick="copied(this)" data-code="classDiagram
+Class01 <|-- AveryLongClass : Cool
+Class03 *-- Class04
+Class05 o-- Class06
+Class07 .. Class08
+Class09 --> C2 : Where am i?
+Class09 --* C3
+Class09 --|> Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+Class08 <--> C2: Cool label
+" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+    <pre class="language-mermaid"><code class="language-mermaid code-highlight"><span class="code-line line-number" line="1"> <span class="token keyword">gitGraph</span>
+</span><span class="code-line line-number" line="2">       commit
+</span><span class="code-line line-number" line="3">       commit
+</span><span class="code-line line-number" line="4">       branch develop
+</span><span class="code-line line-number" line="5">       commit
+</span><span class="code-line line-number" line="6">       commit
+</span><span class="code-line line-number" line="7">       commit
+</span><span class="code-line line-number" line="8">       checkout main
+</span><span class="code-line line-number" line="9">       commit
+</span><span class="code-line line-number" line="10">       commit
+</span></code><div onclick="copied(this)" data-code=" gitGraph
+       commit
+       commit
+       branch develop
+       commit
+       commit
+       commit
+       checkout main
+       commit
+       commit
+" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+    <pre class="language-mermaid"><code class="language-mermaid code-highlight"><span class="code-line line-number" line="1"><span class="token keyword">journey</span>
+</span><span class="code-line line-number" line="2">    title My working day
+</span><span class="code-line line-number" line="3">    section Go to work
+</span><span class="code-line line-number" line="4">      Make tea<span class="token operator">:</span> 5<span class="token operator">:</span> Me
+</span><span class="code-line line-number" line="5">      Go upstairs<span class="token operator">:</span> 3<span class="token operator">:</span> Me
+</span><span class="code-line line-number" line="6">      Do work<span class="token operator">:</span> 1<span class="token operator">:</span> Me, Cat
+</span><span class="code-line line-number" line="7">    section Go home
+</span><span class="code-line line-number" line="8">      Go downstairs<span class="token operator">:</span> 5<span class="token operator">:</span> Me
+</span><span class="code-line line-number" line="9">      Sit down<span class="token operator">:</span> 5<span class="token operator">:</span> Me
+</span></code><div onclick="copied(this)" data-code="journey
+    title My working day
+    section Go to work
+      Make tea: 5: Me
+      Go upstairs: 3: Me
+      Do work: 1: Me, Cat
+    section Go home
+      Go downstairs: 5: Me
+      Sit down: 5: Me
+" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
     <hr>
     <p><strong>Advertisement :)</strong></p>
     <ul>
